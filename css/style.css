@@ -1,0 +1,229 @@
+/* comman css */
+body{
+    background: #f1f1f1;
+    font-family: sans-serif,arial,Helvetica;
+}
+
+a,
+a:hover,
+a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.btn:focus,
+button:focus{
+    outline: none;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+h2.page-heading{
+  margin: 5px 0 30px;
+  padding: 0 5px 10px;
+  border-bottom: 2px solid #333;
+}
+
+/* form{
+    background: #bf0707;
+    /* padding: 25px; */
+    /* margin-right: 150px; */
+    /* box-shadow:0 1px 3px rgba(255, 255, 255, 0.13); */
+/* } */ */
+/* .searchInput{
+    background: #ffff;
+    color: rgb(255, 255, 255);
+    /* place-content: white; */
+        /* margin-left: 151px;
+        border: 2px solid rgb(226, 225, 225);
+        
+    } */ */
+/* .searchBtn{
+    background: #ff4b4b;
+    color: white;
+    margin-left: 9px;
+    border: 2px solid rgb(226, 225, 225);
+    
+} */
+
+/* frontend css start  */
+#header{
+    background:#ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo{
+    display: inline-block;
+    width: 65%;
+}
+
+#logo img{
+    width: 100%;
+}
+
+/* Menubar Styling */
+#menu-bar{
+    background: #bf0707;
+    text-align: left;
+}
+
+#menu-bar .menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    padding: 10px 10px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-weight:520;
+    transition:all 0.5s ease 0s;
+}
+
+#menu-bar .menu > li > a:hover,
+#menu-bar .menu > li > a.active{
+    color:  #bf0707;
+    background:#fff;
+}
+
+/* form css */
+
+
+/* html, body {
+display: block;
+justify-content: left;
+font-family: Roboto, Arial, sans-serif;
+font-size: 15px;
+} */
+form {
+border: 5px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+width: 70%;
+padding: 16px 8px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+button {
+background-color: #bf0707;
+color: white;
+padding: 14px 0;
+margin: 10px 0;
+border: none;
+cursor: grabbing;
+width: 100%;
+}
+h1 {
+text-align:center;
+font-size: 18;
+}
+button:hover {
+opacity: 0.8;
+}
+.formcontainer {
+text-align: left;
+margin: 24px 50px 12px;
+}
+.container {
+padding: 16px 0;
+text-align:left;
+}
+span.psw {
+float: right;
+padding-top: 0;
+padding-right: 15px;
+}
+/* Change styles for span on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+    }
+
+#spaceIcone{
+    /* background-color: #bf0707; */
+        background-color:#ea0000;
+        text-align: center;
+        padding: 1300px;
+    
+}
+}
+
+
+#box1{
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    color: #bf0707;
+    border: 2px solid #bf0707 ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1rem */
+}
+#box2{
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    color: #bf0707;
+    border: 2px solid #bf0707 ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1rem */
+}
+.ceneter{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    /* font-size: 2rem */
+  }
+/* 
+  input[type=text], select, textarea {
+    width: 100px; /* Full width */
+    /* padding: 12px; /* Some padding */ 
+    /* border: 1px solid #ccc; Gray border */
+    /* border-radius: 4px; Rounded borders */
+    /* box-sizing: border-box; Make sure that padding and width stays in place */
+    /* margin-top: 6px; Add a top margin */
+    /* margin-bottom: 16px; Bottom margin */
+    /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+  /* } 
+  
+
+  
+  /* input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } */  
